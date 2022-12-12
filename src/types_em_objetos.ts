@@ -1,9 +1,12 @@
-function resumo(usuario: {nome: string, idade: number}){
-  return `Olá ${usuario.nome}, tudo bem? Você tem ${usuario.idade} anos`;
+function resumo(usuario: {nome: string, idade?: number}){
+  if(usuario.idade !== undefined){
+    return `Olá ${usuario.nome}, tudo bem? Você tem ${usuario.idade} anos`;
+  }else {
+    return `Olá ${usuario.idade}, tudo bem?`
+  }
 }
-
 let u = {
   nome: 'Felipe',
   idade: 25
 }
-console.log(resumo(u))
+resumo(u)
