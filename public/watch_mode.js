@@ -1,1 +1,2 @@
-var nome = 'Felipe';
+"use strict";
+const nome = 'Felipe';
