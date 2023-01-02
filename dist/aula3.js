@@ -1,5 +1,5 @@
 "use strict";
-let nome = 'Felipe';
+let firtsNome = 'Felipe';
 function resumo(usuario) {
     return `Olá ${usuario.nome}, você tem ${usuario.idade} anos`;
 }

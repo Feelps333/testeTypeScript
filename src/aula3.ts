@@ -1,5 +1,5 @@
 type NomeCompleto = string;
-let nome: string = 'Felipe';
+let firtsNome: string = 'Felipe';
 type Idade = string | number;
 type User = {
   nome: string,

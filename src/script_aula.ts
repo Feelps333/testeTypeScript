@@ -1,4 +1,4 @@
-let nome: string = 'felipe'
+let firtsName: string = 'felipe'
 let idade: number = 25
 let n1 = 90
 let programado: boolean = true
@@ -10,5 +10,5 @@ function firstLetterUpperCase(name: string): string {
   let firtsLetter = name.charAt(0).toUpperCase();
   return firtsLetter+name.substring(1);
 }
-let res: string = firstLetterUpperCase('felipe')
+let resName: string = firstLetterUpperCase('felipe')
 console.log(res)
